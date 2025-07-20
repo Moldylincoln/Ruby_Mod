@@ -1,6 +1,8 @@
 package com.moldy.rubyoremod;
 
 import com.mojang.logging.LogUtils;
+import com.moldy.rubyoremod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -36,6 +38,8 @@ public class RubyOreMod
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        ModItems.ITEMS.register(modEventBus);
+
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -48,7 +52,13 @@ public class RubyOreMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.OPAL);
+            event.accept(ModItems.PLATINUM);
+            event.accept(ModItems.URANIUM);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
