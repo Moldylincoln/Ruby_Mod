@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_platinum": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rubyoremod:platinum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rubyoremod:plat_block_from_plat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_platinum"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rubyoremod:plat_block_from_plat"
+    ]
+  }
+}

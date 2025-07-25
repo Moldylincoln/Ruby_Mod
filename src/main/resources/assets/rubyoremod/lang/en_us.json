@@ -1,0 +1,60 @@
+{
+  "item.rubyoremod.ruby": "Ruby",
+  "item.rubyoremod.sapphire": "Sapphire",
+  "item.rubyoremod.opal": "Opal",
+  "item.rubyoremod.platinum": "Platinum Ingot",
+  "item.rubyoremod.uranium": "Uranium Ingot",
+  "item.rubyoremod.upgrader": "Upgrader Staff",
+  "item.rubyoremod.downgrader": "Downgrader Staff",
+  "item.rubyoremod.corn": "Corn",
+
+  "block.rubyoremod.ruby_block": "Block Of Ruby",
+  "block.rubyoremod.opal_block": "Opal Block",
+  "block.rubyoremod.sapphire_block": "Sapphire Block",
+  "block.rubyoremod.uranium_block": "Block Of Uranium",
+  "block.rubyoremod.platinum_block": "Platinum Block",
+  "block.rubyoremod.liquid_block": "Liquid Block",
+  "block.rubyoremod.secret_ruby": "Secret Ruby",
+
+  "item.rubyoremod.flashbacks_music_disc": "Flashbacks Music Disc",
+  "item.rubyoremod.flashbacks_music_disc.desc": "Moldy - Flashbacks",
+
+  "creativetab.rubyoremod.ruby_items": "Mineral Items",
+  "creativetab.rubyoremod.ruby_block": "Mineral Blocks",
+
+  "block.rubyoremod.ruby_stairs": "Ruby Stairs",
+  "block.rubyoremod.ruby_slab": "Ruby Slab",
+
+  "block.rubyoremod.ruby_button": "Ruby Button",
+  "block.rubyoremod.ruby_pressure_plate": "Ruby Pressure Plate",
+
+  "block.rubyoremod.ruby_fence": "Ruby Fence",
+  "block.rubyoremod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.rubyoremod.ruby_wall": "Ruby Wall",
+
+  "block.rubyoremod.ruby_door": "Ruby Door",
+  "block.rubyoremod.ruby_trapdoor": "Ruby Trapdoor",
+  "block.rubyoremod.ruby_lamp": "Ruby Lamp",
+
+
+  "tooltip.rubyoremod.upgrader.shift_down": "This Staff Upgrades Blocks",
+  "tooltip.rubyoremod.upgrader": "Press §eShift§r for more info!",
+
+  "tooltip.rubyoremod.downgrader.shift_down": "This Staff Downgrades Blocks",
+  "tooltip.rubyoremod.downgrader": "Press §eShift§r for more info!",
+
+  "item.rubyoremod.ruby_sword": "Ruby Sword",
+  "item.rubyoremod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rubyoremod.ruby_shovel": "Ruby Shovel",
+  "item.rubyoremod.ruby_axe": "Ruby Axe",
+  "item.rubyoremod.ruby_hoe": "Ruby Hoe",
+  "item.rubyoremod.ruby_hammer": "Ruby Hammer",
+
+  "item.rubyoremod.ruby_bow": "Ruby Bow",
+
+  "item.rubyoremod.ruby_helmet": "Ruby Helmet",
+  "item.rubyoremod.ruby_chestplate": "Ruby Chestplate",
+  "item.rubyoremod.ruby_leggings": "Ruby Leggings",
+  "item.rubyoremod.ruby_boots": "Ruby Boots",
+  "item.rubyoremod.ruby_horse_armor": "Ruby Horse Armor"
+}

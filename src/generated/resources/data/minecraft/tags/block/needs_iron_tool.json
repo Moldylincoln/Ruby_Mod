@@ -1,0 +1,20 @@
+{
+  "values": [
+    "rubyoremod:liquid_block",
+    "rubyoremod:opal_block",
+    "rubyoremod:ruby_block",
+    "rubyoremod:uranium_block",
+    "rubyoremod:sapphire_block",
+    "rubyoremod:platinum_block",
+    "rubyoremod:ruby_stairs",
+    "rubyoremod:ruby_slab",
+    "rubyoremod:ruby_pressure_plate",
+    "rubyoremod:ruby_button",
+    "rubyoremod:ruby_fence",
+    "rubyoremod:ruby_fence_gate",
+    "rubyoremod:ruby_wall",
+    "rubyoremod:ruby_door",
+    "rubyoremod:ruby_trapdoor",
+    "rubyoremod:ruby_lamp"
+  ]
+}

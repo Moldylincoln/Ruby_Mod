@@ -1,0 +1,16 @@
+{
+  "secret_sound": {
+    "subtitle": "sounds.rubyoremod.secret_sound",
+    "sounds": [
+      "rubyoremod:secret_sound"
+    ]
+  },
+  "flashbacks": {
+    "sounds": [
+      {
+        "name": "rubyoremod:flashbacks",
+        "stream": true
+      }
+    ]
+  }
+}

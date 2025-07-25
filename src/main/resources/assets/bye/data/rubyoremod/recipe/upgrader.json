@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "rubyoremod:opal"
+    }
+  },
+  "pattern": [
+    "IDI",
+    "DOD",
+    "IDI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rubyoremod:upgrader"
+  }
+}

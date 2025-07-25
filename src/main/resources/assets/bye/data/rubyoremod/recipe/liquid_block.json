@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block",
+      "container": "minecraft:bucket"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket",
+      "container": "minecraft:bucket"
+    },
+    "W": {
+      "item": "minecraft:water_bucket",
+      "container": "minecraft:bucket"
+    },
+    "P": {
+      "item": "minecraft:powder_snow_bucket",
+      "container": "minecraft:bucket"
+    }
+  },
+  "pattern": [
+    " W ",
+    "LIP",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rubyoremod:liquid_block"
+  }
+}

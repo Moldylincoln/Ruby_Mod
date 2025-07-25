@@ -1,0 +1,6 @@
+{
+  "parent": "rubyoremod:item/ruby_bow",
+  "textures": {
+    "layer0": "rubyoremod:item/ruby_bow_pulling_2"
+  }
+}

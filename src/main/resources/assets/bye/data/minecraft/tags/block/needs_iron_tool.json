@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "opal_block",
+    "platinum_block",
+    "ruby_block",
+    "uranium_block",
+    "sapphire_block"
+  ]
+}

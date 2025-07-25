@@ -1,0 +1,8 @@
+// 1.21	2025-07-22T20:25:02.5637098	Tags for minecraft:block mod id rubyoremod
+6c546b32565b8da20dbead4e2b08a97048a5b737 data/minecraft/tags/block/fences.json
+33c33ff48dcf65ccfc6606e28b7f1c5c976e5858 data/minecraft/tags/block/fence_gates.json
+88f688fc66d19b03f7bfbe37e8ea243c3819c32c data/minecraft/tags/block/mineable/pickaxe.json
+aeb92133172e76d326c60649cf5e8f530130d04b data/minecraft/tags/block/needs_iron_tool.json
+19eb414496d8c9412bd7b4568fed7ea40bddcab6 data/minecraft/tags/block/walls.json
+2f4dd24a38b00c8970fcbe9640618ac17ee3bb43 data/rubyoremod/tags/block/incorrect_for_ruby_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/rubyoremod/tags/block/needs_ruby_tool.json
