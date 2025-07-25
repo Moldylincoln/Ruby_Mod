@@ -1,7 +1,12 @@
 package com.moldy.rubyoremod;
 
 import com.mojang.logging.LogUtils;
+import com.moldy.rubyoremod.block.ModBlocks;
+import com.moldy.rubyoremod.component.ModDataComponentTypes;
+import com.moldy.rubyoremod.item.ModCreativeModeTabs;
 import com.moldy.rubyoremod.item.ModItems;
+import com.moldy.rubyoremod.sound.ModSounds;
+import com.moldy.rubyoremod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,7 +43,14 @@ public class RubyOreMod
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -52,12 +64,29 @@ public class RubyOreMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.CORN);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.UPGRADER);
+            event.accept(ModItems.DOWNGRADER);
+            event.accept(ModBlocks.LIQUID_BLOCK);
+        }
+
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.OPAL);
             event.accept(ModItems.PLATINUM);
             event.accept(ModItems.URANIUM);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.OPAL_BLOCK);
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.URANIUM_BLOCK);
+            event.accept(ModBlocks.PLATINUM_BLOCK);
         }
     }
 
@@ -75,7 +104,7 @@ public class RubyOreMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
