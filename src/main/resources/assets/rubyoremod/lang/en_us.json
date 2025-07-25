@@ -56,5 +56,7 @@
   "item.rubyoremod.ruby_chestplate": "Ruby Chestplate",
   "item.rubyoremod.ruby_leggings": "Ruby Leggings",
   "item.rubyoremod.ruby_boots": "Ruby Boots",
-  "item.rubyoremod.ruby_horse_armor": "Ruby Horse Armor"
+  "item.rubyoremod.ruby_horse_armor": "Ruby Horse Armor",
+
+  "effect.rubyoremod.spider": "Spidey"
 }
