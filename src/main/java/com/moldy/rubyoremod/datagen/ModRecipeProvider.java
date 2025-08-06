@@ -120,5 +120,50 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get())).save(pRecipeOutput);
         trapdoorBuilder(ModBlocks.RUBY_TRAPDOOR.get(), Ingredient.of(ModItems.RUBY.get())).group("ruby")
                 .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_SWORD.get())
+                .pattern("RRR")
+                .pattern("RNR")
+                .pattern("RRR")
+                .define('N', Items.NETHERITE_SWORD)
+                .define('R', ModItems.RUBY.get())
+
+                .unlockedBy(getHasName(Items.NETHERITE_SWORD), has(Items.NETHERITE_SWORD)).save(pRecipeOutput, RubyOreMod.MODID + ":ruby_sword_from_netherite_ruby");
+        //shovel
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_SHOVEL.get())
+                .pattern("RRR")
+                .pattern("RNR")
+                .pattern("RRR")
+                .define('N', Items.NETHERITE_SHOVEL)
+                .define('R', ModItems.RUBY.get())
+
+                .unlockedBy(getHasName(Items.NETHERITE_SHOVEL), has(Items.NETHERITE_SHOVEL)).save(pRecipeOutput, RubyOreMod.MODID + ":ruby_shovel_from_netherite_ruby");
+        //pickaxe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_PICKAXE.get())
+                .pattern("RRR")
+                .pattern("RNR")
+                .pattern("RRR")
+                .define('N', Items.NETHERITE_PICKAXE)
+                .define('R', ModItems.RUBY.get())
+
+                .unlockedBy(getHasName(Items.NETHERITE_PICKAXE), has(Items.NETHERITE_PICKAXE)).save(pRecipeOutput, RubyOreMod.MODID + ":ruby_pickaxe_from_netherite_ruby");
+        //hoe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_HOE.get())
+                .pattern("RRR")
+                .pattern("RNR")
+                .pattern("RRR")
+                .define('N', Items.NETHERITE_HOE)
+                .define('R', ModItems.RUBY.get())
+
+                .unlockedBy(getHasName(Items.NETHERITE_HOE), has(Items.NETHERITE_HOE)).save(pRecipeOutput, RubyOreMod.MODID + ":ruby_hoe_from_netherite_ruby");
+        //axe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_AXE.get())
+                .pattern("RRR")
+                .pattern("RNR")
+                .pattern("RRR")
+                .define('N', Items.NETHERITE_AXE)
+                .define('R', ModItems.RUBY.get())
+
+                .unlockedBy(getHasName(Items.NETHERITE_AXE), has(Items.NETHERITE_AXE)).save(pRecipeOutput, RubyOreMod.MODID + ":ruby_axe_from_netherite_ruby");
     }
 }

@@ -4,8 +4,11 @@ import com.mojang.logging.LogUtils;
 import com.moldy.rubyoremod.block.ModBlocks;
 import com.moldy.rubyoremod.component.ModDataComponentTypes;
 import com.moldy.rubyoremod.effect.ModEffects;
+import com.moldy.rubyoremod.enchantment.ModEnchantmentEffects;
+import com.moldy.rubyoremod.enchantment.ModEnchantments;
 import com.moldy.rubyoremod.item.ModCreativeModeTabs;
 import com.moldy.rubyoremod.item.ModItems;
+import com.moldy.rubyoremod.potion.ModPotions;
 import com.moldy.rubyoremod.sound.ModSounds;
 import com.moldy.rubyoremod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -54,6 +57,11 @@ public class RubyOreMod
         ModSounds.register(modEventBus);
 
         ModEffects.register(modEventBus);
+
+        ModPotions.register(modEventBus);
+
+        ModEnchantmentEffects.register(modEventBus);
+
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);

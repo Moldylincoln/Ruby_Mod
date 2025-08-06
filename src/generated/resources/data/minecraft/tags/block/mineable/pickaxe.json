@@ -14,6 +14,8 @@
     "rubyoremod:ruby_fence_gate",
     "rubyoremod:ruby_wall",
     "rubyoremod:ruby_door",
-    "rubyoremod:ruby_trapdoor"
+    "rubyoremod:ruby_trapdoor",
+    "rubyoremod:ruby_ore",
+    "rubyoremod:deepslate_ruby_ore"
   ]
 }

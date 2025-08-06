@@ -10,6 +10,7 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
@@ -46,6 +47,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.RUBY_PRESSURE_PLATE);
         blockItem(ModBlocks.RUBY_FENCE_GATE);
         blockItem(ModBlocks.RUBY_TRAPDOOR, "_bottom");
+
+        blockWithItem(ModBlocks.RUBY_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
         customLamp();
     }
 

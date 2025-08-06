@@ -37,7 +37,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_FENCE_GATE.get())
                 .add(ModBlocks.RUBY_WALL.get())
                 .add(ModBlocks.RUBY_DOOR.get())
-                .add(ModBlocks.RUBY_TRAPDOOR.get());
+                .add(ModBlocks.RUBY_TRAPDOOR.get())
+                .add(ModBlocks.RUBY_ORE.get())
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.LIQUID_BLOCK.get())
@@ -56,7 +58,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_WALL.get())
                 .add(ModBlocks.RUBY_DOOR.get())
                 .add(ModBlocks.RUBY_TRAPDOOR.get())
-                .add(ModBlocks.RUBY_LAMP.get());
+                .add(ModBlocks.RUBY_LAMP.get())
+                .add(ModBlocks.RUBY_ORE.get())
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE.get());
 
 
         tag(BlockTags.FENCES).add(ModBlocks.RUBY_FENCE.get());

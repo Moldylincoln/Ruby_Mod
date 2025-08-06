@@ -55,7 +55,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.URANIUM_BLOCK.get());
                         output.accept(ModBlocks.LIQUID_BLOCK.get());
-
+                        //
                         output.accept(ModBlocks.RUBY_STAIRS.get());
                         output.accept(ModBlocks.RUBY_SLAB.get());
 
@@ -68,8 +68,11 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.RUBY_DOOR.get());
                         output.accept(ModBlocks.RUBY_TRAPDOOR.get());
-
+                        //
                         output.accept(ModBlocks.RUBY_LAMP.get());
+
+                        output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
 
                     }).build());
 

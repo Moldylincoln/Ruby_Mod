@@ -2,6 +2,7 @@ package com.moldy.rubyoremod.event;
 
 import com.moldy.rubyoremod.RubyOreMod;
 import com.moldy.rubyoremod.item.custom.HammerItem;
+import com.moldy.rubyoremod.potion.ModPotions;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
@@ -9,8 +10,12 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.PotionBrewing;
+import net.minecraft.world.item.alchemy.Potions;
+import net.minecraftforge.event.brewing.BrewingRecipeRegisterEvent;
 import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -57,5 +62,11 @@ public class ModEvents {
                 player.getMainHandItem().shrink(1);
             }
         }
+    }
+    @SubscribeEvent
+    public static void onBrewingRecipeRegister(BrewingRecipeRegisterEvent event) {
+        PotionBrewing.Builder builder = event.getBuilder();
+
+    builder.addMix(Potions.NIGHT_VISION, Items.SPIDER_EYE, ModPotions.SPIDEY_POTION.getHolder().get());
     }
 }

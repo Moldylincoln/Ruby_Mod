@@ -1,4 +1,5 @@
-// 1.21	2025-07-24T22:10:31.3775024	Loot Tables
+// 1.21.1	2025-07-26T16:20:44.0987377	Loot Tables
+2bda7e6a8db2ac2d0769bcc513591cffb14e31f8 data/rubyoremod/loot_table/blocks/deepslate_ruby_ore.json
 419a385984d048274d329d1952ecf959e303b7f9 data/rubyoremod/loot_table/blocks/liquid_block.json
 a454ad25435d054c423517a708ad217aaa5cb25c data/rubyoremod/loot_table/blocks/opal_block.json
 aa23a5d54bdd2d92ef44c3873882ff6d7a18bb98 data/rubyoremod/loot_table/blocks/platinum_block.json
@@ -8,6 +9,7 @@ aa23a5d54bdd2d92ef44c3873882ff6d7a18bb98 data/rubyoremod/loot_table/blocks/plati
 520c645d7428aa2dd52e49ad796cae6a5b3f6ac6 data/rubyoremod/loot_table/blocks/ruby_fence.json
 cfe620ddfb843184ce311e6ce649588a409bb6ad data/rubyoremod/loot_table/blocks/ruby_fence_gate.json
 5bd1ca251852de92ce781601c36df39cac182a49 data/rubyoremod/loot_table/blocks/ruby_lamp.json
+9dc7d95f7da21845a141d0e91478f190e2198015 data/rubyoremod/loot_table/blocks/ruby_ore.json
 9414e82d8b7429754544e5b2a93f7db1ae7216c6 data/rubyoremod/loot_table/blocks/ruby_pressure_plate.json
 7064ffb3790fb35c8498b711c9417b467ca421ca data/rubyoremod/loot_table/blocks/ruby_slab.json
 59713b40314ce3de2326a3531bc39907499f0392 data/rubyoremod/loot_table/blocks/ruby_stairs.json

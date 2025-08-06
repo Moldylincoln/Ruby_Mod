@@ -42,7 +42,7 @@ authors="${mod_authors}" #optional
 #displayTest="MATCH_VERSION" # if nothing is specified, MATCH_VERSION is the default when clientSideOnly=false, otherwise IGNORE_ALL_VERSION when clientSideOnly=true (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''Adds Rubies And Many Other New Minerals To Minecraft'''
+description='''Adds Rubies And Many Other New Things To Minecraft'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.rubyoremod]] #optional
     # the modid of the dependency
@@ -50,7 +50,7 @@ description='''Adds Rubies And Many Other New Minerals To Minecraft'''
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[51.0.0,52.0.0)" #mandatory
+    versionRange="[51.0.0,52.2.0)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
     # BEFORE - This mod is loaded BEFORE the dependency
     # AFTER - This mod is loaded AFTER the dependency

@@ -9,6 +9,8 @@
   "item.rubyoremod.corn": "Corn",
 
   "block.rubyoremod.ruby_block": "Block Of Ruby",
+  "block.rubyoremod.ruby_ore": "Ruby Ore",
+  "block.rubyoremod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.rubyoremod.opal_block": "Opal Block",
   "block.rubyoremod.sapphire_block": "Sapphire Block",
   "block.rubyoremod.uranium_block": "Block Of Uranium",
@@ -58,5 +60,12 @@
   "item.rubyoremod.ruby_boots": "Ruby Boots",
   "item.rubyoremod.ruby_horse_armor": "Ruby Horse Armor",
 
-  "effect.rubyoremod.spider": "Spidey"
+  "effect.rubyoremod.spider": "Spidey",
+  "item.minecraft.potion.effect.spider_potion": "Spidey Potion",
+
+  "painting.rubyoremod.rubymod.title": "Ruby",
+  "painting.rubyoremod.rubymod.author": "Moldy",
+
+  "enchantment.rubyoremod.lightning_striker": "Lightning Striker",
+  "enchantment.rubyoremod.tnt_touch": "Tnt Touch"
 }
